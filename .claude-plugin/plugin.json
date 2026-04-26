@@ -1,0 +1,18 @@
+{
+  "name": "github-os",
+  "version": "0.1.0",
+  "description": "Use GitHub as an agent control plane: slice a finished feature into a stack of single-purpose draft PRs, address review comments with fixup + autosquash, and mine repeat offenses into CLAUDE.md rules and new skills.",
+  "author": {
+    "name": "Sebastian Tremblay"
+  },
+  "license": "MIT",
+  "keywords": [
+    "github",
+    "pull-request",
+    "stacked-prs",
+    "code-review",
+    "git",
+    "workflow",
+    "agent-control-plane"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "github-os",
+  "owner": {
+    "name": "Sebastian Tremblay",
+    "url": "https://github.com/sebytremblay/github-os"
+  },
+  "metadata": {
+    "description": "Use GitHub as an agent control plane: stacked draft PRs, fixup-based review replies, and self-improving CLAUDE.md rules.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "github-os",
+      "source": "./",
+      "description": "Slice a finished feature branch into a stack of single-purpose draft PRs, address review comments with git commit --fixup + git rebase --autosquash, and mine repeat offenses into CLAUDE.md rules and new skills.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Sebastian Tremblay",
+        "url": "https://github.com/sebytremblay/github-os"
+      },
+      "homepage": "https://github.com/sebytremblay/github-os",
+      "repository": "https://github.com/sebytremblay/github-os",
+      "license": "MIT",
+      "category": "workflow",
+      "keywords": [
+        "github",
+        "pull-request",
+        "stacked-prs",
+        "code-review",
+        "git",
+        "fixup",
+        "autosquash",
+        "workflow",
+        "agent-control-plane"
+      ]
+    }
+  ]
+}
